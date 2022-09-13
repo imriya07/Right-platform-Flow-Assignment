@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="popup">
+        <div class="form">
+            <form action="" method="get">
+                <h2>Signup Form</h2>
+                <div class="form-element">
+                   <label for="Full Name">Full Name :</label>
+                   <input type="text" id="name" name="fname" placeholder="Enter Full Name">
+                </div> 
+                <div class="form-element">
+                   <label for="Email ID">Email ID :</label>
+                   <input type="text" id="email" name="email" placeholder="Enter Email ID">
+                </div> 
+                <div class="form-element">
+                   <label for="phone">Phone Number :</label>
+                   <input type="text" id="phone" name="phone" placeholder="Enter Phone Number" >
+                </div>
+                <div class="form-element">
+                   <label for="user">User name :</label>
+                   <input type="text" id="user" name="user" placeholder="Enter User name">
+                </div>
+                <div class="form-element">
+                   <label for="password">Password :</label>
+                   <input type="password" id="pwd2332" name="pwd332" placeholder="Enter Password" required="">
+                </div>
+                <div class="form-element inputValue">
+                   <label for="password">Confirm Password :</label>
+                   <input type="password" id="pwd" name="pwd" placeholder="Confirm Password" autocomplete="current-password" required="" placeholder="Enter Confirm Password">
+                   <span><i class="far fa-eye" id="togglePassword"></i></span>
+                </div>
+                <div class="form-element">
+                   <label for="select">Account Type :</label>
+                   <select id="select" name="select">
+                     <option value="private">Private</option>
+                     <option value="government">Government</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <label for="city">City :</label>
+                    <input type="text" id="city" name="city" placeholder="Enter City">
+                </div> 
+                <div class="form-element">
+                    <label for="source">Source :</label>
+                    <input type="text" id="source" name="source" placeholder="Enter Source">
+                </div> 
+                <div class="form-element">
+                    <button onclick="add()">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>  
+<script src="index.js"></script>
+</body>
+</html>
