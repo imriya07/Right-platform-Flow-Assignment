@@ -25,11 +25,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .center{
-    position: absolute;
-    top: 18%;
-    left: 46%;
+    text-align: center;
 }
 .center button{
+    margin-top: 10px;
     padding: 10px 20px;
     font-size: 15px;
     font-weight: 600px;
@@ -86,7 +85,6 @@ a:link {
     border-radius: 5px;
 }
 .popup .form .form-element Select{
-    /* margin-top: 5px; */
     display: block;
     width: 100%;
     padding: 10px;
@@ -170,7 +168,6 @@ h3{
 .header1 a{
     font-size: 30px;
     margin-top: 120px;
-    /* margin-bottom: 20px; */
     color: white;
 }
 .flex-container .circle1 img {
@@ -244,8 +241,10 @@ h3{
     margin-left: 10px;
     text-align: center;
   }
+  .more{
+text-align: center;
+  }
   .more a{
-    margin-left: 550px;
     font-size: 25px;
   }
   .header2{
@@ -284,304 +283,111 @@ h3{
     top: 32px;
     left: 15px;
 }
-
-@media (max-width:400px){
+@media (max-width:425px){
     .header{
-        width: 100%;
+        width: 80%;
         height: 240px;
     }
-    .slogan{
-        font-size: 20px;
-        margin-top: 10px;
-    }
-    .description{
-        font-size: 20px;
-        margin-top: 10px;
-    }
-    .center{
-        position: absolute;
-        top: 25%;
-        left: 54%;
-    }
-    .center button{
-        font-size: 15px;
-        margin-top: 15px;
-        margin-left: 150px;
-
-
-    }
     .popup{
-        width: 300px;
+        width: 400px;
     }
     #togglePassword{
-        margin-left: 200px;
+        margin-left: 300px;
         cursor: pointer;
     }
-    h3{
-        margin-left: 340px;
-    }
-    .flex-container {
-        display: flex;
-    }
-    .flex-container .circle1 img{
-        width: 120px;
-        margin-left: 120px;
-    }
-    .flex-container .circle2 img{
-        width: 120px;
-        height: 120px;
-        margin-left: 20px;
-    }
-    .flex-container .circle3 img{
-        width: 120px;
-        height: 120px;
-        margin-left: -200px;
-    }
-    .flex-container .circle1 p{
-        margin-right: 10px;
-        
-    }
-    .flex-container .circle2 p{
-        margin-right: 250px;
-        
-    }
-    .flex-container .circle3 p{
-        margin-left: 220px;
-        text-align: center;
+    .head {
 
-    }
-    .header1{
-        width: 45%;
-        height: 70px;
-        margin-left: 350px;
-    }
-    .flex-container .circle4 img{
-        width: 120px;
-        height: 120px;
-        margin-left: 120px;
-
-    }
-    .flex-container .circle5 img{
-        width: 120px;
-        height: 120px;
-        margin-left: 20px;
-    }
-    .flex-container .circle6 img{
-        width: 120px;
-        height: 120px;
-        margin-left: 0px;
+        width: 523px;
         
-    }
-    .head2 h3{
-        margin-top: 20px;
-        
-    }
-    .flex-container .circle7 {
-        width: 350px;
-        height: 160px;
-    }
-    .flex-container .circle8 .what{
-        margin-top: 10px;
-        margin-top: 20px;
-    }
-    .flex-container .circle8 {
-        width: 380px;
-        height: 160px;
-        margin-left: 30px;
-        
-        
-    }
-    .flex-container .circle8 .what1{
-        margin-top: 20px;
-        margin-left: 10px;
-    }
-    .flex-container .circle9 {
-        width: 120px;
-        height: 160px;
-        margin-left: 20px;
-    }
-    .flex-container .circle9 .what2{
-        margin-top: 50px;
-        margin-right: 130px
-    }
-    .more a{
-        /* margin-left: 550px; */
-        font-size: 18px;
-        margin-left: 60px;
-      }
-    .header2{
-        width: 80%;
-        height: 180px;
-        margin-left: 290px;
-        text-align: center;
-    }
-    .header2 .start{
-        margin-top: 0px;
-        
-    }
-}
-@media (max-width:500px){
-    .header{
-        width: 100%;
-        height: 260px;
-    }
-    .center button{
-        font-size: 15px;
-        margin-top: 10px;
-        margin-left: 150px;
     }
     .head h3{
-        margin-left: 350px;
+        font-size: 25px;
+        margin-left: 242px;
         
     }
     .flex-container {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .flex-container .circle1 img{
-        width: 120px;
-        margin-left: 120px;
-    }
-    .flex-container .circle2 img{
-        width: 120px;
-        height: 120px;
-        margin-left: 20px;
-    }
-    .flex-container .circle3 img{
-        width: 120px;
-        height: 120px;
-        margin-left: -210px;
+        margin-left: 450px;
     }
     .flex-container .circle1 p{
-        margin-right: 10px;
-        
+        margin-left: 350px;
+    }
+    .flex-container .circle2 img{
+        margin-left: 450px;
     }
     .flex-container .circle2 p{
-        margin-right: 250px;
-        
+        margin-left: 350px;
+    }
+    .flex-container .circle3 img{
+        margin-left: 450px;
     }
     .flex-container .circle3 p{
-        margin-left: -210px;
+        margin-left: 350px;
     }
     .header1{
-        width: 45%;
+        margin-left: 310px;
         height: 70px;
-        margin-left: 330px;
+        width: 150px;
     }
     .head1 h3{
-        margin-left: 400px;
-    }
-    .flex-container .circle4 img{
-        width: 120px;
-        height: 120px;
-        margin-left: 120px;
-
-    }
-    .flex-container .circle5 img{
-        width: 120px;
-        height: 120px;
-        margin-left: 20px;
-    }
-    .flex-container .circle6 img{
-        width: 120px;
-        height: 120px;
-        margin-left: 0px;
-        
-    }
-    .head2 h3{
-        margin-left: 400px;
-    }
-    .flex-container .circle7 {
-        width: 350px;
-        height: 160px;
-    }
-    .flex-container .circle8 .what{
-        margin-top: 10px;
-        margin-top: 20px;
-    }
-    .flex-container .circle8 {
-        width: 380px;
-        height: 160px;
-        margin-left: 30px;   
-    }
-    .flex-container .circle8 .what1{
-        margin-top: 20px;
-        margin-left: 10px;
-    }
-    .flex-container .circle9 {
-        width: 120px;
-        height: 160px;
-        margin-left: 20px;
-    }
-    .flex-container .circle9 .what2{
-        margin-top: 50px;
-        margin-right: 130px
-    }
-    .more a{
-        /* margin-left: 550px; */
-        font-size: 18px;
-        margin-left: 150px;
-      }
-    .header2{
-        width: 80%;
-        height: 180px;
-        margin-left: 290px;
+        margin-left: 320px;
         text-align: center;
     }
-    .header2 .start{
-        margin-top: 0px;
-        
+    .flex-container .circle4{
+        margin-left: 380px;
     }
-   
-    
-
-}
-@media (max-width:920px){
-    .header{
-        width: 100%;
-        height: 280px;
+    .flex-container .circle5{
+        margin-left: 380px;
     }
-    .center button{
-        font-size: 30px;
-        margin-top: -40px;
+    .flex-container .circle6{
+        margin-left: 380px;
+    }
+    .head2 h3{
+        margin-left: 360px;
+    }
+    .flex-container .circle7{
+        margin-left: 490px;
+    }
+    .flex-container .circle8{
+        margin-left: 490px;
+    }
+    .flex-container .circle9{
+        margin-left: 490px;
+    }
+    .more {
+        width: 200%;
+    }
+    .header2{
+        margin-left: 230px;
+    }
+    .header2 .start {
+        margin-top: 20px;
+        color: white;
+        font-size: 22px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .header2 button{
+        margin-top: 10px;
+    }
+    .join p a{
         margin-left: 100px;
     }
-    .head h3{
-        margin-left: 300px;
-    }
-    .flex-container {
-        display: flex;
-    }
-    .flex-container .circle1 img{
-        width: 160px;
-        margin-left: 120px;
-    }
-    .flex-container .circle2 img{
-        width: 150px;
-        height: 150px;
-        margin-left: 150px;
-    }
-    .flex-container .circle3 img{
-        width: 150px;
-        height: 150px;
-        margin-left: 120px;
-    }
-    .flex-container .circle4 img{
-        width: 150px;
-        height: 150px;
-        margin-left: 120px;
-
-    }
-    .flex-container .circle5 img{
-        width: 150px;
-        height: 150px;
-        margin-left: 150px;
-    }
-    .flex-container .circle6 img{
-        width: 150px;
-        height: 150px;
-        margin-left: 120px;
-        
-    }
-
 }
-    
+@media (max-width:425px){
+  
+}
+@media (max-width:414px){
+ 
+}
+@media (max-width:390px){
+  
+    .header2 button{
+        margin-top: 10px;
+    }
+}
+
